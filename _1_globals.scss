@@ -1,0 +1,75 @@
+///////////////////////////////////
+/////****   global.scss   ****/////
+///////////////////////////////////
+
+*{box-sizing: border-box;}
+
+body{
+  //stops safari inventing Horizontal Scroll
+  overflow-x: hidden;
+  //set body to be flex column and use .push-down to make sticky foter
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+}
+.push-down{flex: 1;}
+
+///***  Container ***///
+.container {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1200px;
+    width: 95%;
+}
+
+///***  Images  ***///
+img{
+	width:100%;
+	vertical-align: bottom; //stops that annoying 2px gap at the btm of imgs
+	height: auto;
+}
+
+///***  Breakpoints ***///
+
+$media-sml: 576px;
+$media-med: 769px;
+$media-lrg: 992px;
+$media-lrg-xl: 1200px;
+
+// Add colors here
+$prim       : rgb(20, 173, 173);
+$seco       : rgb(246, 165, 222);
+$tert       : rgb(0, 84, 39);
+$lightgrey  : #d7d7d7;
+$grey				: #919191;
+$darkgrey		: #505050;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////fooled-ya

@@ -1,0 +1,95 @@
+//////////////////////////////////////////
+///****   padding_&_margins.scss   ****///
+//////////////////////////////////////////
+
+//All padding/margin is relative to these two variables,
+$padding1 : 1rem;
+$margin1 : 1rem;
+
+//padding
+.p1px{padding: 1px;} ///use this to stop divs collapsing
+.m1px{margin: 1px;} ///use this to stop divs collapsing
+
+.p0{padding: 0;}
+.p05{padding: ($padding1 / 2);}
+.p1{padding: $padding1;}
+.p2{padding: $padding1 * 2;}
+.p3{padding: $padding1 * 3;}
+
+.pt05{padding-top: ($padding1 / 2);}
+.pt1{padding-top: $padding1;}
+.pt2{padding-top: $padding1 * 2;}
+.pt3{padding-top: $padding1 * 3;}
+
+.pb05{padding-bottom: ($padding1 / 2);}
+.pb1{padding-bottom: $padding1;}
+.pb2{padding-bottom: $padding1 * 2;}
+.pb3{padding-bottom: $padding1 * 3;}
+
+.pl05{padding-left: ($padding1 / 2);}
+.pl1{padding-left: $padding1;}
+.pl2{padding-left: $padding1 * 2;}
+.pl3{padding-left: $padding1 * 3;}
+
+.pr05{padding-right: ($padding1 / 2);}
+.pr1{padding-right: $padding1;}
+.pr2{padding-right: $padding1 * 2;}
+.pr3{padding-right: $padding1 * 3;}
+
+.pv05{padding: ($padding1 / 2) 0;}
+.pv1{padding: $padding1 0;}
+.pv2{padding: $padding1 * 2 0;}
+.pv3{padding: $padding1 * 3 0;}
+
+.ph05{padding: 0 ($padding1 / 2);}
+.ph1{padding: 0 $padding1;}
+.ph2{padding: 0 $padding1 * 2;}
+.ph3{padding: 0 $padding1 * 3;}
+
+.pv05{padding-top: ($padding1 / 2);padding-bottom: ($padding1 / 2);}
+.pv1{padding-top: $padding1; padding-bottom: $padding1}
+.pv2{padding-top: ($padding1 * 2); padding-bottom: ($padding1 * 2)}
+.pv3{padding-top:($padding1 * 3); padding-bottom:($padding1 * 3)}
+
+.ph05{padding-left: ($padding1 / 2);padding-right: ($padding1 / 2);}
+.ph1{padding-left: $padding1; padding-right: $padding1;}
+.ph2{padding-left: ($padding1*2); padding-right: ($padding1*2);}
+.ph3{padding-left: ($padding1*3); padding-right: ($padding1*3);}
+
+
+//margins
+.m0{margin: 0;}
+.m05{margin: ($margin1 / 2);}
+.m1{padding: $margin1;}
+.m2{padding: ($margin1 * 2);}
+.m3{padding: ($margin1 * 3);}
+
+.mt05{margin-top: ($margin1 / 2);}
+.mt1{margin-top: $margin1;}
+.mt2{margin-top: ($margin1 * 2);}
+.mt3{margin-top: ($margin1 * 3);}
+
+.mb05{margin-bottom: ($margin1 / 2);}
+.mb1{margin-bottom: $margin1;}
+.mb2{margin-bottom: ($margin1 * 2);}
+.mb3{margin-bottom: ($margin1 * 3);}
+
+.ml05{margin-left: ($margin1 / 2);}
+.ml1{margin-left: $margin1;}
+.ml2{margin-left: ($margin1 * 2);}
+.ml3{margin-left: ($margin1 * 3);}
+
+.mr05{margin-right: ($margin1 / 2);}
+.mr1{margin-right: $margin1;}
+.mr2{margin-right: ($margin1 * 2);}
+.mr3{margin-right: ($margin1 * 3);}
+
+.mv05{margin-top: ($margin1 / 2);margin-bottom: ($margin1 / 2);}
+.mv1{margin-top: $margin1; margin-bottom: $margin1}
+.mv2{margin-top: ($margin1 * 2); margin-bottom: ($margin1 * 2)}
+.mv3{margin-top:($margin1 * 3); margin-bottom:($margin1 * 3)}
+
+.mh05{margin-left: ($margin1 / 2);margin-right: ($margin1 / 2);}
+.mh1{margin-left: $margin1; margin-right: $margin1;}
+.mh2{margin-left: ($margin1*2); margin-right: ($margin1*2);}
+.mh3{margin-left: ($margin1*3); margin-right: ($margin1*3);}

@@ -1,0 +1,50 @@
+//////////////////////////////////////
+////////****  mixins.scss  ****///////
+//////////////////////////////////////
+
+///add a border
+@mixin b1 ($color : red, $style : solid){border: 1px $style $color;}
+@mixin b2 ($color : orange, $style : dashed ){border: 1px $style  $color;}
+@mixin b3 ($color : green, $style : dotted){border: 1px $style  $color;}
+
+///target all h tags
+/// @include h-tags { **whatever***}
+@mixin h-tags {
+    h1, h2, h3, h4, h5, h6 {@content;}
+}
+
+///calculate rems from px
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
+}
+
+//@include fontSize(32px);
+@mixin fontSize($size) {
+  font-size: $size; //Fallback in px
+  font-size: calculateRem($size);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//fooled-ya
